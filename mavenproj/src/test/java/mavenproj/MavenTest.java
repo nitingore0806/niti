@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 public class MavenTest {
 	
 	@Test(dependsOnMethods= "m2")
-	public void m1() {
-		System.out.println("inside m1");
+	public void m2() {
+		System.out.println("inside m2");
 	}
 	@Test(dependsOnGroups="aaa")
 	public void m2() {

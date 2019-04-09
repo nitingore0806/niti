@@ -15,6 +15,7 @@ public class TestListner implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		passCount++;
+		
 	}
 
 	public void onTestFailure(ITestResult result) {
