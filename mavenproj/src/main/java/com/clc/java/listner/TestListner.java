@@ -24,6 +24,7 @@ public class TestListner implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		skipCount++;
+		
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
